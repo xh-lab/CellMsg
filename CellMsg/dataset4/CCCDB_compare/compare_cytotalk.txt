@@ -1,0 +1,3 @@
+overlap(LRI sensitivity):440
+Jaccard:0.049965932318873495
+Union's number of two LRI:8806
