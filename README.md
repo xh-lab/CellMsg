@@ -51,7 +51,7 @@ CellMsg is tested to work under:
 # Quick start
 To reproduce our results:
 
-**Notes**: Due to the large size of some datas, we uploaded them to the [Google Drive](https://drive.google.com/drive/u/0/my-drive).
+**Notes**: Due to the large size of some datas, we uploaded them to the Google Drive, if some files cannot be found, please look for it [here](https://drive.google.com/drive/u/0/my-drive). 
 
 ## Data Description
 | **File name** | **Description** |
@@ -65,4 +65,7 @@ To reproduce our results:
 | NATMI/human_lr.csv | The human LRI database provided by NATMI can be obtained from https://github.com/forrest-lab/NATMI/blob/master/lrdbs/lrc2p.csv. |
 | SingleCellSignalR/LRdb.rda | The human LRI database provided by SingleCellSignalR can be obtained from https://github.com/SCA-IRCM/SingleCellSignalR/tree/master/data. |
 | SingleCellSignalR/human_lr.csv | The CSV files converted from SingleCellSignalR/LRdb.rda using R. |
+| LRI.csv | The LR pairs identified by CellMsg. | 
+| cell2ct.csv and cell2ct.txt | Cell annotation files, including mappings from cells to cell types (both represented numerically). |
+
 
