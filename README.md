@@ -68,7 +68,15 @@ To reproduce our results:
 | LRI.csv | The LR pairs identified by CellMsg. | 
 | cell2ct.csv and cell2ct.txt | Cell annotation files, including mappings from cells to cell types (both represented numerically). |
 | mart_export.txt, uniprotid2gn.txt, ensmusg.txt and ensmusp.txt | Mapping files of protein identifiers to gene names. |
-| ligand_sequence.txt and receptor_sequence.txt | ligand feature and receptor feature files obtained after processing with iFeature. |
+| ligand_sequence.txt and receptor_sequence.txt | ligand and receptor sequence files, they serve as input files for iFeature to generate corresponding ligand or receptor features. |
+| ligand_res_fea.csv and receptor_res_fea.csv (stored in google drive) | ligand feature and receptor feature files obtained after processing with iFeature. | 
 
-
-
+## 1, acquire feature file from sequence file using iFeature
+**Notes**: Since the processing steps for all sequence files are identical, we will proceed to process one of the sequence files.
+```
+python iFeature.py --file CellMsg/dataset1/ligand_sequence.txt --type AAC --out ligand_aac.csv
+python iFeature.py --file CellMsg/dataset1/ligand_sequence.txt --type CKSAAP --out ligand_cksaap.csv
+python iFeature.py --file CellMsg/dataset1/ligand_sequence.txt --type CTriad --out ligand_ctriad.csv
+python iFeature.py --file CellMsg/dataset1/ligand_sequence.txt --type PAAC --out ligand_paac.csv
+Then, the four features were merged to generate the final feature file for all ligands, where each row represents the features of one ligand, with the number of rows equating to the number of ligands.
+```
