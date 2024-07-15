@@ -56,7 +56,13 @@ To reproduce our results:
 ## Data Description
 | **File name** | **Description** |
 | :---: | :--- |
-| human_lr_pair.rds/mouse_lr_pair.rds | The human/mouse LRI database provided by CellTalkDB can be obtained from https://github.com/ZJUFanLab/CellTalkDB/tree/master/database. |
-| human_lr_pair.csv/mouse_lr_pair.rds | The CSV files converted from human_lr_pair.rds/mouse_lr_pair.rds using R. |
-
+| CellTalkDB/human_lr_pair.rds and CellTalkDB/mouse_lr_pair.rds | The human and mouse LRI databases provided by CellTalkDB can be obtained from https://github.com/ZJUFanLab/CellTalkDB/tree/master/database. |
+| CellTalkDB/human_lr_pair.csv and CellTalkDB/mouse_lr_pair.csv | The CSV files converted from CellTalkDB/human_lr_pair.rds and CellTalkDB/mouse_lr_pair.rds using R. |
+| Connectome/ncomms8866_human.rda and Connectome/ncomms8866_mouse.rda | The human and mouse LRI databases provided by Connectome can be obtained from https://github.com/msraredon/Connectome/tree/master/data. |
+| Connectome/human_lr.csv and Connectome/mouse_lr.csv | The CSV files converted from Connectome/ncomms8866_human.rda and Connectome/ncomms8866_mouse.rda using R. |
+| Cytotalk/lrp_human.rda and Cytotalk/lrp_mouse.rda | The human and mouse LRI databases provided by Cytotalk can be obtained from https://github.com/tanlabcode/CytoTalk/tree/master/data. |
+| Cytotalk/lrp_human.csv and Cytotalk/lrp_mouse.csv | The CSV files converted from Cytotalk/lrp_human.rda and Cytotalk/lrp_mouse.rda using R. |
+| NATMI/human_lr.csv | The human LRI database provided by NATMI can be obtained from https://github.com/forrest-lab/NATMI/blob/master/lrdbs/lrc2p.csv. |
+| SingleCellSignalR/LRdb.rda | The human LRI database provided by SingleCellSignalR can be obtained from https://github.com/SCA-IRCM/SingleCellSignalR/tree/master/data. |
+| SingleCellSignalR/human_lr.csv | The CSV files converted from SingleCellSignalR/LRdb.rda using R. |
 
