@@ -1,5 +1,5 @@
 # CellMsg: graph convolutional networks for ligand-receptor-mediated cell-cell communication analysis
-===========================================================================================================
+=========================================================================================
 
 
 [![license](https://img.shields.io/badge/python_-3.11.7_-blue)](https://www.python.org/)
