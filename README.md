@@ -42,7 +42,7 @@ CellMsg is tested to work under:
 * Install [LIANA+](https://github.com/saezlab/liana-py/) using pip install liana if you encounter any issue.
 * Install [torch_geometric](https://pytorch-geometric.readthedocs.io/en/latest/) using pip install torch_geometric if you encounter any issue.
 * Install [seaborn-0.13.2](https://seaborn.pydata.org/) using pip install seaborn if you encounter any issue.
-* Install [networkx-2.8.8](https://pypi.org/project/networkx/) using pip install networkx if you encounter any issue.
+* Install [networkx-2.8.8](https://pypi.org/project/networkx/2.8.8/) using pip install networkx if you encounter any issue.
 
 
 # Quick start
