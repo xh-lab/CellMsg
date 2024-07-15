@@ -55,6 +55,7 @@ To reproduce our results:
 ```
 ## Data Description
 | **File name** | **Description** |
+| --- | --- |
 | human_lr_pair.rds/mouse_lr_pair.rds | The human/mouse LRI database provided by CellTalkDB can be obtained from https://github.com/ZJUFanLab/CellTalkDB/tree/master/database. |
 | human_lr_pair.csv/mouse_lr_pair.rds | The CSV files converted from human_lr_pair.rds/mouse_lr_pair.rds using R. |
 
