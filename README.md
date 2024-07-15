@@ -7,6 +7,8 @@
 [![license](https://img.shields.io/badge/scanpy_-1.10.1_-red)](https://scanpy.readthedocs.io/en/stable/)
 [![license](https://img.shields.io/badge/anndata_-0.10.8_-green)](https://anndata-tutorials.readthedocs.io/en/latest/index.html/)
 [![license](https://img.shields.io/badge/LIANA+_-yellow)](https://github.com/saezlab/liana)
+[![license](https://img.shields.io/badge/iFeature_-yellow)](https://github.com/Superzchen/iFeature/)
+
 
 CellMsg is a method for analyzing cell-cell communication mediated by ligand-receptor interactions. (i) The CellMsg method is a framework that accurately captures potential ligand-receptor interactions, thereby effectively inferring cell-cell communications (CCCs). (ii) The CellMsg method organizes ligand-receptor pairs into an adjacency matrix format, obtains protein features using iFeature, and performs feature extraction through GCNConv. This is followed by binary classification tasks using linear layers. Multiple layers of GCNConv with skip connections are added to ensure comprehensive node neighborhood information, avoiding issues like over-smoothing and gradient vanishing, thereby improving model accuracy. The overview figure of CellMsg is shown as follows.
 
@@ -36,6 +38,7 @@ CellMsg is tested to work under:
 * Anndata 0.10.8
 * R 4.2.2
 * Numpy 1.24.4
+* iFeature
 * Other basic python and r toolkits
 ```
 ### Installation of other dependencies
