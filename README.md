@@ -14,4 +14,22 @@ CellMsg is a method for analyzing cell-cell communication mediated by ligand-rec
 ![Image text](https://github.com/xh-lab/CellMsg/blob/main/workflow.pdf)
 
 
+The overview of CellMsg. (a) Ligand-Receptor Interaction Prediction, including Data Preprocessing and Ligand-Receptor Interaction
+Classification. The data preprocessing section uses iFeature to extract protein features to construct the protein feature matrix and organize LR pairs into
+the LR interaction matrix. These matrices are then used as inputs to the LRI prediction model to generate LRIs. (b) Cell-Cell Communication Inference,
+including Ligand-Receptor Interaction Screening and Cell-Cell Communication Strength Measurement. The ligand-receptor interaction screening section
+filters high-confidence LRIs in scRNA-seq data, then calculates the thresholding result, product result, and cell result using the filtered LRIs. Finally, the
+three-point estimation method is applied to the three matrices to derive the final CCC strength. (c) Cell-Cell Communication Visualization, generating
+a cell-cell communication heatmap, cell-cell communication network, and visualization of the most active LR pairs in each cell type pair communication
+from the cell-cell communication strength matrix.
+## Table of Contents
+
+- [Installation](#installation)
+- [Quick start](#quick-start)
+- [Contributing](#contributing)
+- [Cite](#cite)
+- [Contacts](#contacts)
+- [License](#license)
+
+
 
