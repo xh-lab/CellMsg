@@ -70,6 +70,9 @@ To reproduce our results:
 | mart_export.txt, uniprotid2gn.txt, ensmusg.txt and ensmusp.txt | Mapping files of protein identifiers to gene names. |
 | ligand_sequence.txt and receptor_sequence.txt | ligand and receptor sequence files, they serve as input files for iFeature to generate corresponding ligand or receptor features. |
 | ligand_res_fea.csv and receptor_res_fea.csv (stored in google drive) | ligand feature and receptor feature files obtained after processing with iFeature. | 
+| ligand-receptor-interaction.csv | This file contains information about ligand-receptor interactions. |
+| final_model.pth | The final model for predicting LRIs. |
+| 
 
 ## 1, acquire feature file from sequence file using iFeature
 **Notes**: Since the processing steps for all sequence files are identical, we will proceed to process one of the sequence files.
@@ -79,4 +82,16 @@ python iFeature.py --file CellMsg/dataset1/ligand_sequence.txt --type CKSAAP --o
 python iFeature.py --file CellMsg/dataset1/ligand_sequence.txt --type CTriad --out ligand_ctriad.csv
 python iFeature.py --file CellMsg/dataset1/ligand_sequence.txt --type PAAC --out ligand_paac.csv
 Then, the four features were merged to generate the final feature file for all ligands, where each row represents the features of one ligand, with the number of rows equating to the number of ligands.
+```
+
+## 2, training an LRI prediction model
+**Notes**: Since the steps for training the LRI prediction model are the same for all datasets, let's proceed with processing Dataset 1.
+```
+python CellMsg/dataset1/CellMsg.py
+```
+## 3, preditcing LRIs
+**Notes**: Since the steps for predicting LRIs are the same for all datasets, let's proceed with processing Dataset 1.
+```
+python CellMsg/dataset1/generate_lr.py
+python CellMsg/dataset1/ensp_to_gname.py
 ```
