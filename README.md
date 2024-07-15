@@ -67,6 +67,8 @@ To reproduce our results:
 | SingleCellSignalR/human_lr.csv | The CSV files converted from SingleCellSignalR/LRdb.rda using R. |
 | LRI.csv | The LR pairs identified by CellMsg. | 
 | cell2ct.csv and cell2ct.txt | Cell annotation files, including mappings from cells to cell types (both represented numerically). |
-| mart_export.txt, uniprotid2gn.txt, ensmusg.txt and  | Mapping file of protein identifiers to gene names. |
+| mart_export.txt, uniprotid2gn.txt, ensmusg.txt and ensmusp.txt | Mapping files of protein identifiers to gene names. |
+| ligand_sequence.txt and receptor_sequence.txt | ligand feature and receptor feature files obtained after processing with iFeature. |
+
 
 
