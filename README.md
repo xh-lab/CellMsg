@@ -71,8 +71,9 @@ To reproduce our results:
 | ligand_sequence.txt and receptor_sequence.txt | ligand and receptor sequence files, they serve as input files for iFeature to generate corresponding ligand or receptor features. |
 | ligand_res_fea.csv and receptor_res_fea.csv (stored in google drive) | ligand feature and receptor feature files obtained after processing with iFeature. | 
 | ligand-receptor-interaction.csv | This file contains information about ligand-receptor interactions. |
-| final_model.pth | The final model for predicting LRIs. |
-| 
+| final_model.pth (stored in google drive) | The final model for predicting LRIs. |
+| LRI_predicted.csv | LRIs that predicted by CellMsg. |
+| original_LRI.csv, LRI_ori_.csv, origin_LRI.csv | LRIs that we collected. |
 
 ## 1, acquire feature file from sequence file using iFeature
 **Notes**: Since the processing steps for all sequence files are identical, we will proceed to process one of the sequence files.
@@ -95,3 +96,37 @@ python CellMsg/dataset1/CellMsg.py
 python CellMsg/dataset1/generate_lr.py
 python CellMsg/dataset1/ensp_to_gname.py
 ```
+Through the above steps, we obtained predicted LRIs with high confidence, which are then merged with the LRIs previously collected to serve as LRIs identified by CellMsg.
+
+## 4, Cell-Cell Communication Strength Measurement
+```
+python CellMsg/CCC_Analysis/Processing_scRNA-seq_data.py
+python CellMsg/CCC_Analysis/The_three-point_estimation_method.py
+```
+Through the above steps, we obtained the cell-cell communication strength matrix processed using the three-point evaluation method, and we generated the cell communication heatmap and cell communication network.
+
+## 5, Visualization analysis of cell-cell communication
+```
+python CellMsg/CCC_Analysis/The_number_of_LRIs.py
+```
+Through the steps outlined above, we have obtained Three_LRi_num.pdf and Three_LRi_num.csv, which show the number of LRIs mediating communication between cell types in human melanoma tissues.
+
+```
+python CellMsg/CCC_Analysis/Top.py
+```
+Through the above command, we obtained Top.pdf and Top_data.csv, which display the three most likely LR pairs mediating communication between melanoma cancer cells and six other cell types.
+
+=========================================================================================
+
+
+
+# Contributing 
+All authors were involved in the conceptualization of the SpaCCC method. BYJ and SLP conceived and supervised the project. BYJ and HX collected the data. HX completed the coding for the project. BYJ, HX and SLP contributed to the review of the manuscript before submission for publication. All authors read and approved the final manuscript.
+
+
+# Contacts
+If you have any questions or comments, please feel free to email: Shaoliang Peng (slpeng@hnu.edu.cn); (Boya Ji) byj@hnu.edu.cn; (Hong Xia) hongxia@hnu.edu.cn.
+
+# License
+
+[MIT ? Richard McRichface.](../LICENSE)
