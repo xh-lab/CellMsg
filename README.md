@@ -51,7 +51,7 @@ CellMsg is tested to work under:
 # Quick start
 To reproduce our results:
 
-**Notes**: Due to the large size of some datas, we uploaded them to the Google Drive, if some files cannot be found, please look for it [here](https://drive.google.com/drive/u/0/my-drive). 
+**Notes**: Due to the large size of some datas, we uploaded them to the Google Drive, if some files cannot be found, please look for them [here](https://drive.google.com/drive/u/0/my-drive). 
 
 ## Data Description
 | **File name** | **Description** |
