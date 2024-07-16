@@ -127,7 +127,6 @@ All authors were involved in the conceptualization of the CellMsg method. BYJ an
 # cite
 <p align="center">
   <a href="https://clustrmaps.com/site/1bpq2">
-     <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=OeE1leppfCtc0HKVqcGKXkQSR5wugrKoPY39yM9m_9A"></script>
      <img width="200"  src="https://clustrmaps.com/map_v2.png?cl=ffffff&w=268&t=m&d=4hIDPHzBcvyZcFn8iDMpEM-PyYTzzqGtngzRP7_HkNs" />
    </a>
 </p>
