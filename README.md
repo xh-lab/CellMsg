@@ -124,10 +124,23 @@ Through the above command, we obtained Top.pdf and Top_data.csv, which display t
 # Contributing 
 All authors were involved in the conceptualization of the SpaCCC method. BYJ and SLP conceived and supervised the project. BYJ and HX collected the data. HX completed the coding for the project. BYJ, HX and SLP contributed to the review of the manuscript before submission for publication. All authors read and approved the final manuscript.
 
+# cite
+<p align="center">
+  <a href="https://clustrmaps.com/site/1bpq2">
+     <img width="200"  src="https://clustrmaps.com/map_v2.png?cl=ffffff&w=268&t=m&d=4hIDPHzBcvyZcFn8iDMpEM-PyYTzzqGtngzRP7_HkNs" />
+   </a>
+</p>
+
+<p align="center">
+  <a href="#">
+     <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fxh-lab%2FCellMsg&labelColor=%233499cc&countColor=%2370c168" />
+   </a>
+</p>
+
 
 # Contacts
 If you have any questions or comments, please feel free to email: Shaoliang Peng (slpeng@hnu.edu.cn); (Boya Ji) byj@hnu.edu.cn; (Hong Xia) hongxia@hnu.edu.cn.
 
 # License
 
-[MIT ? Richard McRichface.](../LICENSE)
+[MIT License](../LICENSE) - Richard McRichface
