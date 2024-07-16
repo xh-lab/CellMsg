@@ -143,4 +143,4 @@ If you have any questions or comments, please feel free to email: Shaoliang Peng
 
 # License
 
-[MIT &copy Richard McRichface.](../LICENSE)
+[MIT &copy; Richard McRichface.](../LICENSE)
