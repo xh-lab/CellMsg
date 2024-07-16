@@ -71,7 +71,7 @@ To reproduce our results:
 | mart_export.txt, uniprotid2gn.txt, ensmusg.txt and ensmusp.txt | Mapping files of protein identifiers to gene names. |
 | ligand_sequence.txt and receptor_sequence.txt | ligand and receptor sequence files, they serve as input files for iFeature to generate corresponding ligand or receptor features. |
 | ligand_res_fea.csv and receptor_res_fea.csv (stored in google drive) | ligand feature and receptor feature files obtained after processing with iFeature. | 
-| ligand-receptor-interaction.csv | This file contains information about ligand-receptor interactions. |
+| ligand-receptor-interaction.csv | This file contains information about ligand-receptor interactions that we collected. |
 | final_model.pth (stored in google drive) | The final model for predicting LRIs. |
 | LRI_predicted.csv | LRIs that predicted by CellMsg. |
 | original_LRI.csv, LRI_ori_.csv, origin_LRI.csv | LRIs that we collected. |
