@@ -122,7 +122,7 @@ Through the above command, we obtained Top.pdf and Top_data.csv, which display t
 
 
 # Contributing 
-All authors were involved in the conceptualization of the SpaCCC method. BYJ and SLP conceived and supervised the project. BYJ and HX collected the data. HX completed the coding for the project. BYJ, HX and SLP contributed to the review of the manuscript before submission for publication. All authors read and approved the final manuscript.
+All authors were involved in the conceptualization of the CellMsg method. BYJ and SLP conceived and supervised the project. BYJ and HX collected the data. HX completed the coding for the project. BYJ, HX and SLP contributed to the review of the manuscript before submission for publication. All authors read and approved the final manuscript.
 
 # cite
 <p align="center">
